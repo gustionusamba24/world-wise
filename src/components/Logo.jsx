@@ -1,8 +1,15 @@
+import { Link } from "react-router";
 import styles from "./Logo.module.css";
 
 function Logo() {
   return (
-    <img src="/images/logo.png" alt="WorldWise logo" className={styles.logo} />
+    <Link to="/">
+      <img
+        src="/images/logo.png"
+        alt="WorldWise logo"
+        className={styles.logo}
+      />
+    </Link>
   );
 }
 
