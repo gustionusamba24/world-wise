@@ -1,4 +1,6 @@
+import { Link } from "react-router";
 import styles from "./Homepage.module.css";
+import AppNav from "../components/AppNav";
 
 export default function Homepage() {
   return (
