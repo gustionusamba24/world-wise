@@ -1,7 +1,7 @@
 // Uses the same styles as Product
 import styles from "./Product.module.css";
 
-export default function Product() {
+export default function Pricing() {
   return (
     <main className={styles.product}>
       <section>
@@ -17,7 +17,10 @@ export default function Product() {
             voluptatem iste.
           </p>
         </div>
-        <img src="/images/img-2.jpg" alt="overview of a large city with skyscrapers" />
+        <img
+          src="/images/img-2.jpg"
+          alt="overview of a large city with skyscrapers"
+        />
       </section>
     </main>
   );
